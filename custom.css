@@ -65,7 +65,7 @@ button.px-0.flex-grow-1.v-btn.v-btn--is-elevated.v-btn--has-bg.theme--dark.v-siz
     box-shadow: none!important;
 }
 .theme--dark.v-btn.v-btn--has-bg {
-    background-color: #b01f1f2e;
+    background-color: #bbb1b12e;
     box-shadow: none;
 }
 .theme--dark.v-data-table {
@@ -202,4 +202,7 @@ a.v-list-item--active.v-list-item.v-list-item--link.theme--dark.secondary--text 
 }
 .v-btn {
     border-radius: 0.5em;
+}
+.app-btn-group:not(.app-btn-group--vertical).app-btn-group--divided[data-v-28c8e213]>.v-btn:not(:last-child) {
+    border-right: 0;
 }
