@@ -37,9 +37,9 @@
     background-color: transparent !important;
 }
 .theme--dark.v-toolbar.v-sheet {
-    background-color: rgba(23 23 23 / 30%)!important;
-    backdrop-filter: blur(40px);
+    background-color: rgb(45 48 56 / 40%) !important;
     -webkit-backdrop-filter: blur(40px);
+    backdrop-filter: blur(40px);
 }
 .theme--dark.v-tabs-items {
     background-color: transparent !important;
@@ -85,7 +85,7 @@ button.px-0.flex-grow-1.v-btn.v-btn--is-elevated.v-btn--has-bg.theme--dark.v-siz
 }
 .v-list.v-sheet.theme--dark.v-list--dense {
     border-radius: 0;
-    background-color: rgba(34 36 41 / 90%);
+    background-color: rgb(66 73 78 / 90%);
     -webkit-backdrop-filter: blur(40px);
     backdrop-filter: blur(40px);
 }
@@ -105,13 +105,9 @@ header.v-sheet.theme--dark.v-toolbar.v-toolbar--dense {
 }
 .theme--dark.v-data-table.v-data-table--fixed-header thead th {
     background: rgba(34 36 41 / 50%)!important;
-    backdrop-filter: blur(40px);
-    -webkit-backdrop-filter: blur(40px);
 }
 .v-card__text.py-4 {
     background-color: rgb(57 57 57 / 80%);
-    backdrop-filter: blur(40px);
-    -webkit-backdrop-filter: blur(40px);
 }
 .v-card__actions.pt-4 {
     background-color: rgb(57 57 57 / 80%);
@@ -124,10 +120,6 @@ header.v-sheet.theme--dark.v-toolbar.v-toolbar--dense {
 .v-input--selection-controls__input:hover .v-input--selection-controls__ripple:before {
     background: transparent;
 }
-.v-card__text {
-    backdrop-filter: blur(40px);
-    -webkit-backdrop-filter: blur(40px);
-}
 .v-application .btncolor {
     background-color: rgba(23 23 23 / 30%) !important;
     border-radius: 0.5em;
@@ -137,6 +129,8 @@ header.v-sheet.theme--dark.v-toolbar.v-toolbar--dense {
 }
 .theme--dark.v-chip:not(.v-chip--active) {
     background: rgba(23 23 23 / 30%);
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 .v-btn-toggle>.v-btn.v-btn--active {
     opacity: 0.7;
@@ -212,4 +206,17 @@ a.v-list-item--active.v-list-item.v-list-item--link.theme--dark.secondary--text 
 }
 .chart[data-v-ea84c26e] {
     width: 97%;
+}
+.v-snack__wrapper.theme--dark {
+    background-color: #1f1a1ae6 !important;
+}
+.setting__link[data-v-2a7147ab]:before {
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+}
+.v-card.collapsable-card .v-card__title.collapsable-card-title .v-tabs .v-tabs-bar__content>.v-tab:first-child:before {
+    border-top-left-radius: 1em;
+}
+.preview-options[data-v-6c3ecf71], .preview-name[data-v-6c3ecf71] {
+    background: rgb(0 0 0 / 30%);
 }
