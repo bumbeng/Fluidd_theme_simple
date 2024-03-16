@@ -55,7 +55,7 @@ button.px-0.flex-grow-1.v-btn.v-btn--is-elevated.v-btn--has-bg.theme--dark.v-siz
     background-color: rgba(23 23 23 / 50%) !important;
 }
 .theme--dark.v-btn-toggle:not(.v-btn-toggle--group) .v-btn.v-btn {
-    background-color: rgba(23 23 23 / 30%) !important;
+    background-color: rgba(23 23 23 / 50%) !important;
 }
 .v-btn:before {
     background-color: rgb(255 255 255 / 90%);
@@ -115,7 +115,7 @@ header.v-sheet.theme--dark.v-toolbar.v-toolbar--dense {
     -webkit-backdrop-filter: blur(40px);
 }
 .theme--dark .toolbar-logo[data-v-b360135f] {
-    background: rgba(34 36 41 / 50%)!important;
+    background: transparent!important;
 }
 .v-input--selection-controls__input:hover .v-input--selection-controls__ripple:before {
     background: transparent;
@@ -219,4 +219,7 @@ a.v-list-item--active.v-list-item.v-list-item--link.theme--dark.secondary--text 
 }
 .preview-options[data-v-6c3ecf71], .preview-name[data-v-6c3ecf71] {
     background: rgb(0 0 0 / 30%);
+}
+.v-sheet.v-card:not(.v-sheet--outlined) {
+    box-shadow: none;
 }
