@@ -1,6 +1,5 @@
 
-![Screenshot 2024-03-16 121712](https://github.com/bumbeng/Fluidd_theme_simple/assets/111509593/77fccca6-999e-4827-9654-2bbc0b62e628)
-
+![Screenshot 2024-03-16 174124](https://github.com/bumbeng/Fluidd_theme_simple/assets/111509593/a51805f4-5881-4088-ab18-3704f3bdcec1)
 
 
 
