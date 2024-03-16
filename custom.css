@@ -206,3 +206,7 @@ a.v-list-item--active.v-list-item.v-list-item--link.theme--dark.secondary--text 
 .app-btn-group:not(.app-btn-group--vertical).app-btn-group--divided[data-v-28c8e213]>.v-btn:not(:last-child) {
     border-right: 0;
 }
+.vue-recycle-scroller.console-scroller.ready.direction-vertical {
+    margin-left: 10px;
+    margin-top: 10px;
+}
