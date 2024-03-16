@@ -1,5 +1,6 @@
 
-![Screenshot 2024-03-15 225818](https://github.com/bumbeng/Fluidd_theme_simple/assets/111509593/f81bfa61-bc9b-4b33-97c6-e07f94fe5dbb)
+
+![Screenshot 2024-03-16 091539](https://github.com/bumbeng/Fluidd_theme_simple/assets/111509593/fbd33b5c-5d0d-4342-9aca-45104171e52d)
 
 
 ## How to install
