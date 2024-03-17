@@ -1,6 +1,6 @@
+##### !! beta !!
+![Screenshot 2024-03-17 125628](https://github.com/bumbeng/Fluidd_theme_simple/assets/111509593/19003a09-509c-44d7-904b-bd3f4c7d319e)
 
-
-![Screenshot 2024-03-17 011719](https://github.com/bumbeng/Fluidd_theme_simple/assets/111509593/addb324b-dfe0-45f0-be00-8b08f3a92515)
 
 ## How to install
 - make hidden folders visible
