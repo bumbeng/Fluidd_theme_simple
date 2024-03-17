@@ -11,7 +11,7 @@
 ## Logo change
 - name an picture to logo.png
 - put this image to .fluidd-theme
-- insert these lines with **your path** of the logo.png file into custom.css
+- insert these lines with `!! your url !!` of the logo.png file into custom.css
 
       .logo-wrapper[data-v-7fe7065f] {
       
