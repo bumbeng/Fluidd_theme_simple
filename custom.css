@@ -1,3 +1,6 @@
+.v-application .justify-space-between {
+    justify-content: center!important;
+}
 .v-sheet.v-card {
     border-radius: 1em;
 }
@@ -7,6 +10,12 @@
 }
 .controls-wrapper[data-v-dd684e0d] {
     max-width: 1000px !important;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+
 }
 .console-wrapper.v-card.v-card--flat.v-sheet.theme--dark {
     border-top-right-radius: 0;
@@ -114,9 +123,6 @@ header.v-sheet.theme--dark.v-toolbar.v-toolbar--dense {
     backdrop-filter: blur(40px);
     -webkit-backdrop-filter: blur(40px);
 }
-.theme--dark .toolbar-logo[data-v-b360135f] {
-    background: transparent!important;
-}
 .v-input--selection-controls__input:hover .v-input--selection-controls__ripple:before {
     background: transparent;
 }
@@ -222,4 +228,11 @@ a.v-list-item--active.v-list-item.v-list-item--link.theme--dark.secondary--text 
 }
 .v-sheet.v-card:not(.v-sheet--outlined) {
     box-shadow: none;
+}
+.v-card.collapsable-card .v-card__title.collapsable-card-title {
+    min-height: 50px;
+}
+.theme--dark .toolbar-logo[data-v-b360135f] {
+    background: transparent!important;
+    border: 0;
 }
