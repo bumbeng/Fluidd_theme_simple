@@ -1,5 +1,6 @@
 ##### !! beta !!
-![Screenshot 2024-03-17 125628](https://github.com/bumbeng/Fluidd_theme_simple/assets/111509593/19003a09-509c-44d7-904b-bd3f4c7d319e)
+
+![Screenshot 2024-03-17 165224](https://github.com/bumbeng/Fluidd_theme_simple/assets/111509593/d02a5cbd-ced9-4509-a206-ae8c5229c128)
 
 
 ## How to install
