@@ -1,8 +1,31 @@
-.v-ripple__container {
-    border-radius: 0.5em;
+.theme--dark.v-text-field--outlined:not(.v-input--is-focused):not(.v-input--has-state):not(.v-input--is-disabled)>.v-input__control>.v-input__slot:hover fieldset {
+    color: var(--v-primary-base);
+}
+.row.mr-n1.no-gutters.justify-space-between {
+    margin-left: 8px;
+}
+button.px-1.v-btn.v-btn--is-elevated.v-btn--has-bg.theme--dark.v-size--small.btncolor:last-child {
+    min-width: 45px!important;
+    margin-right: 3px;
+}
+button.px-1.v-btn.v-btn--is-elevated.v-btn--has-bg.theme--dark.v-size--small.btncolor:first-child {
+    min-width: 45px!important;
+}
+.layout.justify-space-between.align-center {
+    display: flex;
 }
 .v-application .justify-space-between {
-    justify-content: center!important;
+    justify-content: center;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 1px;
+}
+:root {
+    --v-secondary-base: #a5a5a5!important;
+}
+.v-ripple__container {
+    border-radius: 0.5em;
 }
 .v-sheet.v-card {
     border-radius: 1em;
@@ -13,6 +36,10 @@
 }
 .controls-wrapper[data-v-dd684e0d] {
     max-width: 1000px !important;
+     min-width: 350px!important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .console-wrapper.v-card.v-card--flat.v-sheet.theme--dark {
     border-top-right-radius: 0;
@@ -69,6 +96,7 @@ button.px-0.flex-grow-1.v-btn.v-btn--is-elevated.v-btn--has-bg.theme--dark.v-siz
 .theme--dark.v-btn-toggle:not(.v-btn-toggle--group) {
     background: transparent;
     box-shadow: none!important;
+    margin-top: 1px;
 }
 .theme--dark.v-btn.v-btn--has-bg {
     background-color: #bbb1b12e;
@@ -194,7 +222,8 @@ a.v-list-item--active.v-list-item.v-list-item--link.theme--dark.secondary--text 
     border-radius: 0.3em;
 }
 .v-btn.value[data-v-516a6680] {
-    min-width: 60px;
+    min-width: 36px;
+    max-width: 60px;
     padding: 0;
 }
 .v-btn {
@@ -231,7 +260,7 @@ a.v-list-item--active.v-list-item.v-list-item--link.theme--dark.secondary--text 
     background: rgb(0 0 0 / 30%);
 }
 .v-sheet.v-card:not(.v-sheet--outlined) {
-    box-shadow: none;
+    box-shadow: none!important;
 }
 .v-card.collapsable-card .v-card__title.collapsable-card-title {
     min-height: 50px;
