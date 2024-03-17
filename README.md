@@ -1,6 +1,16 @@
 ##### !! beta !!
 
-![Screenshot 2024-03-17 165224](https://github.com/bumbeng/Fluidd_theme_simple/assets/111509593/d02a5cbd-ced9-4509-a206-ae8c5229c128)
+choose your favourite background (rename to background.png)
+
+# background
+![Screenshot 2024-03-17 191728](https://github.com/bumbeng/Fluidd_theme_simple/assets/111509593/ecb37df9-c108-4b03-ae93-597efc0aaf2e)
+
+# background_1
+![Screenshot 2024-03-17 191252](https://github.com/bumbeng/Fluidd_theme_simple/assets/111509593/d5119026-6831-4e4c-a582-e03009fe05bc)
+
+# background_2
+![Screenshot 2024-03-17 191337](https://github.com/bumbeng/Fluidd_theme_simple/assets/111509593/00be0212-a29a-4155-96bd-412b6a017bb2)
+
 
 
 ## How to install
