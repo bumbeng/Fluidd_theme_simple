@@ -37,9 +37,7 @@ button.px-1.v-btn.v-btn--is-elevated.v-btn--has-bg.theme--dark.v-size--small.btn
 .controls-wrapper[data-v-dd684e0d] {
     max-width: 1000px !important;
      min-width: 350px!important;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: inline;
 }
 .console-wrapper.v-card.v-card--flat.v-sheet.theme--dark {
     border-top-right-radius: 0;
@@ -224,7 +222,6 @@ a.v-list-item--active.v-list-item.v-list-item--link.theme--dark.secondary--text 
 .v-btn.value[data-v-516a6680] {
     min-width: 36px;
     max-width: 60px;
-    padding: 0;
 }
 .v-btn {
     border-radius: 0.5em;
