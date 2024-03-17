@@ -1,3 +1,6 @@
+.v-ripple__container {
+    border-radius: 0.5em;
+}
 .v-application .justify-space-between {
     justify-content: center!important;
 }
