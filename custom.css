@@ -13,12 +13,6 @@
 }
 .controls-wrapper[data-v-dd684e0d] {
     max-width: 1000px !important;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: flex-start;
-
 }
 .console-wrapper.v-card.v-card--flat.v-sheet.theme--dark {
     border-top-right-radius: 0;
