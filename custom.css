@@ -1,3 +1,6 @@
+.v-card__title.collapsable-card-title.card-heading.draggable {
+    border-radius: 1em;
+}
 button.flex-grow-1.v-btn.v-btn--is-elevated.v-btn--has-bg.theme--dark.v-size--default.primary.grey--text.text--darken-3 {
     max-width: 120px;
 }
@@ -14,6 +17,9 @@ button.flex-grow-1.v-btn.v-btn--is-elevated.v-btn--has-bg.theme--dark.v-size--de
     justify-content: center!important;
 }
 button.value.v-btn.v-btn--disabled.v-btn--has-bg.theme--dark.v-size--default.grey--text.text--darken-3 {
+    flex-grow: 2!important;
+}
+button.value.v-btn.v-btn--is-elevated.v-btn--has-bg.theme--dark.v-size--default.primary.grey--text.text--darken-3 {
     flex-grow: 2!important;
 }
 .v-application .text-right {
