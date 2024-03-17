@@ -1,8 +1,40 @@
-.theme--dark.v-text-field--outlined:not(.v-input--is-focused):not(.v-input--has-state):not(.v-input--is-disabled)>.v-input__control>.v-input__slot:hover fieldset {
-    color: var(--v-primary-base);
+button.flex-grow-1.v-btn.v-btn--is-elevated.v-btn--has-bg.theme--dark.v-size--default.primary.grey--text.text--darken-3 {
+    max-width: 120px;
+}
+.row.align-start.justify-space-between {
+    justify-content: center!important;
+    display: inline-flex!important;
+    flex-direction: row!important;
+    flex-wrap: wrap!important;
+    margin-top: 1px!important;
+}
+.controls-wrapper.col {
+    display: flex!important;
+    flex-wrap: wrap!important;
+    justify-content: center!important;
+}
+button.value.v-btn.v-btn--disabled.v-btn--has-bg.theme--dark.v-size--default.grey--text.text--darken-3 {
+    flex-grow: 2!important;
+}
+.v-application .text-right {
+    text-align: center!important;
 }
 .row.mr-n1.no-gutters.justify-space-between {
-    margin-left: 8px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.elevation-2.v-item-group.theme--dark.v-btn-toggle.v-btn-toggle--dense {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.v-application--wrap ::-webkit-scrollbar-thumb, .v-dialog__content ::-webkit-scrollbar-thumb {
+    background: #ffffff78!important;
+}
+.theme--dark.v-text-field--outlined:not(.v-input--is-focused):not(.v-input--has-state):not(.v-input--is-disabled)>.v-input__control>.v-input__slot:hover fieldset {
+    color: var(--v-primary-base);
 }
 button.px-1.v-btn.v-btn--is-elevated.v-btn--has-bg.theme--dark.v-size--small.btncolor:last-child {
     min-width: 45px!important;
@@ -13,13 +45,6 @@ button.px-1.v-btn.v-btn--is-elevated.v-btn--has-bg.theme--dark.v-size--small.btn
 }
 .layout.justify-space-between.align-center {
     display: flex;
-}
-.v-application .justify-space-between {
-    justify-content: center;
-    display: inline-flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-top: 1px;
 }
 :root {
     --v-secondary-base: #a5a5a5!important;
@@ -36,8 +61,8 @@ button.px-1.v-btn.v-btn--is-elevated.v-btn--has-bg.theme--dark.v-size--small.btn
 }
 .controls-wrapper[data-v-dd684e0d] {
     max-width: 1000px !important;
-     min-width: 350px!important;
-    display: inline;
+    min-width: 350px!important;
+    display: inline!important;
 }
 .console-wrapper.v-card.v-card--flat.v-sheet.theme--dark {
     border-top-right-radius: 0;
@@ -136,7 +161,7 @@ header.v-sheet.theme--dark.v-toolbar.v-toolbar--dense {
     border-radius: 0;
 }
 .theme--dark.v-data-table.v-data-table--fixed-header thead th {
-    background: rgba(34 36 41 / 50%)!important;
+    background: #363a46ff!important;
 }
 .v-card__text.py-4 {
     background-color: rgb(57 57 57 / 80%);
@@ -221,7 +246,8 @@ a.v-list-item--active.v-list-item.v-list-item--link.theme--dark.secondary--text 
 }
 .v-btn.value[data-v-516a6680] {
     min-width: 36px;
-    max-width: 60px;
+    max-width: 66px;
+
 }
 .v-btn {
     border-radius: 0.5em;
