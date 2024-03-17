@@ -20,5 +20,4 @@
           .theme--dark .toolbar-logo[data-v-b360135f] {
               background-image: url(http://mainsailos.local/server/files/config/.fluidd-theme/logo.png)!important;
               background-size: cover!important;
-              margin-left: 5px;
       }
