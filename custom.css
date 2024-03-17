@@ -149,6 +149,7 @@ button.px-0.flex-grow-1.v-btn.v-btn--is-elevated.v-btn--has-bg.theme--dark.v-siz
 .v-menu__content {
     border-radius: 1em;
     backdrop-filter: blur(40px);
+    -webkit-backdrop-filter: blur(40px);
     background-color: rgb(57 57 57 / 80%);
 }
 .v-list.grow.pt-0.v-sheet.theme--dark.v-list--dense {
@@ -161,7 +162,9 @@ header.v-sheet.theme--dark.v-toolbar.v-toolbar--dense {
     border-radius: 0;
 }
 .theme--dark.v-data-table.v-data-table--fixed-header thead th {
-    background: #363a46ff!important;
+    background: rgba(79, 80, 82, 0.5)!important;
+    backdrop-filter: blur(40px);
+    -webkit-backdrop-filter: blur(40px);
 }
 .v-card__text.py-4 {
     background-color: rgb(57 57 57 / 80%);
