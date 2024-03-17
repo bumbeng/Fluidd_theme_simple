@@ -221,7 +221,14 @@ a.v-list-item--active.v-list-item.v-list-item--link.theme--dark.secondary--text 
     border-bottom-right-radius: inherit;
 }
 .v-card.collapsable-card .v-card__title.collapsable-card-title .v-tabs .v-tabs-bar__content>.v-tab:first-child:before {
-    border-top-left-radius: 1em;
+    border-top-left-radius: 1em!important;
+    border-radius: 0.5em;
+}
+.v-tab:before {
+    border-radius: 0.5em;
+}
+.theme--dark.v-tabs .v-tab--active:hover:before, .theme--dark.v-tabs .v-tab--active:before {
+    border-radius: 0.5em;
 }
 .preview-options[data-v-6c3ecf71], .preview-name[data-v-6c3ecf71] {
     background: rgb(0 0 0 / 30%);
