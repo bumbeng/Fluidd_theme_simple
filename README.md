@@ -3,13 +3,13 @@
 choose your favourite background (rename to background.png)
 
 # background
-![Screenshot 2024-03-17 191728](https://github.com/bumbeng/Fluidd_theme_simple/assets/111509593/ecb37df9-c108-4b03-ae93-597efc0aaf2e)
+![Screenshot 2024-03-19 003104](https://github.com/bumbeng/Fluidd_theme_simple/assets/111509593/7f3f4082-56a8-412b-abad-753361065843)
 
 # background_1
-![Screenshot 2024-03-17 191252](https://github.com/bumbeng/Fluidd_theme_simple/assets/111509593/d5119026-6831-4e4c-a582-e03009fe05bc)
+![Screenshot 2024-03-19 003258](https://github.com/bumbeng/Fluidd_theme_simple/assets/111509593/df21ea64-f8cf-4c5c-8dd9-d50d36233e29)
 
 # background_2
-![Screenshot 2024-03-17 191337](https://github.com/bumbeng/Fluidd_theme_simple/assets/111509593/00be0212-a29a-4155-96bd-412b6a017bb2)
+![Screenshot 2024-03-19 003152](https://github.com/bumbeng/Fluidd_theme_simple/assets/111509593/bc32df70-2542-4605-a61f-2f92955fae39)
 
 
 
