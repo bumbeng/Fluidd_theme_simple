@@ -1,3 +1,26 @@
+.theme--dark.v-data-table tbody tr.v-data-table__selected {
+    background: rgba(23 23 23 / 20%);
+}
+.v-card__title {
+    word-break: break-word;
+}
+.col-md-4 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.col-md-8 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-width: 50%;
+    align-items: stretch;
+    flex-basis: 50%;
+    flex-grow: 1;
+}
 .v-application .text-body-1 {
     font-size: 0.85rem !important;
     line-height: 2rem;
@@ -143,9 +166,6 @@ button.px-0.flex-grow-1.v-btn.v-btn--is-elevated.v-btn--has-bg.theme--dark.v-siz
     background-color: #bbb1b12e;
     box-shadow: none;
 }
-.theme--dark.v-data-table {
-    background-color: rgba(23 23 23 / 10%) !important;
-}
 .theme--dark.v-navigation-drawer {
     background-color: rgba(23 23 23 / 30%) !important;
 }
@@ -177,7 +197,7 @@ header.v-sheet.theme--dark.v-toolbar.v-toolbar--dense {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     box-shadow:none;
-    border-radius: 0;
+    border-radius: 0!important;
 }
 .theme--dark.v-data-table.v-data-table--fixed-header thead th {
     background: rgba(79, 80, 82, 0.5)!important;
