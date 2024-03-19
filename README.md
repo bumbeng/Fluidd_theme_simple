@@ -1,4 +1,14 @@
 ##### !! beta !!
+# Feautures
+- control slider
+    - description is now above the    input field to prevent text wrapping
+    - input field is now at full container width
+- axis control buttons
+    - are now in full container width, mobile and desktop browser (bars only)
+- gcode viewer
+    - division of input fields and buttons now 50% to avoid overlap
+- transparent design
+    - every background changes the entire look
 
 choose your favourite background (rename to background.png)
 
