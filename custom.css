@@ -1,3 +1,18 @@
+button.v-btn.v-btn--is-elevated.v-btn--has-bg.theme--dark.v-size--default.btncolor {
+    margin-inline: 1px;
+}
+.v-toolbar__items>.v-btn {
+    height: 80% !important;
+}
+.v-toolbar__items {
+    align-items: center;
+}
+.v-navigation-drawer__content {
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    backdrop-filter: blur(10px);
+}
 .theme--dark.v-data-table tbody tr.v-data-table__selected {
     background: rgba(23 23 23 / 20%);
 }
@@ -53,9 +68,11 @@ button.flex-grow-1.v-btn.v-btn--is-elevated.v-btn--has-bg.theme--dark.v-size--de
 }
 button.value.v-btn.v-btn--disabled.v-btn--has-bg.theme--dark.v-size--default.grey--text.text--darken-3 {
     flex-grow: 2!important;
+    max-width: 100px;
 }
 button.value.v-btn.v-btn--is-elevated.v-btn--has-bg.theme--dark.v-size--default.primary.grey--text.text--darken-3 {
     flex-grow: 2!important;
+    max-width: 100px;
 }
 .v-application .text-right {
     text-align: center!important;
@@ -123,6 +140,8 @@ button.px-1.v-btn.v-btn--is-elevated.v-btn--has-bg.theme--dark.v-size--small.btn
 }
 .theme--dark.v-card {
     background-color: rgba(23 23 23 / 30%);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
 }
 .theme--dark.v-data-table {
     background-color: transparent !important;
@@ -134,7 +153,7 @@ button.px-1.v-btn.v-btn--is-elevated.v-btn--has-bg.theme--dark.v-size--small.btn
     background-color: transparent !important;
 }
 .theme--dark.v-toolbar.v-sheet {
-    background-color: rgb(45 48 56 / 40%) !important;
+    background-color: rgb(45 48 56 / 20%) !important;
     -webkit-backdrop-filter: blur(40px);
     backdrop-filter: blur(40px);
 }
@@ -152,7 +171,7 @@ button.px-0.flex-grow-1.v-btn.v-btn--is-elevated.v-btn--has-bg.theme--dark.v-siz
     background-color: rgba(23 23 23 / 50%) !important;
 }
 .theme--dark.v-btn-toggle:not(.v-btn-toggle--group) .v-btn.v-btn {
-    background-color: rgba(23 23 23 / 50%) !important;
+    background-color: rgb(53 53 53 / 50%) !important;
 }
 .v-btn:before {
     background-color: rgb(255 255 255 / 90%);
@@ -180,9 +199,6 @@ button.px-0.flex-grow-1.v-btn.v-btn--is-elevated.v-btn--has-bg.theme--dark.v-siz
 }
 .v-list.v-sheet.theme--dark.v-list--dense {
     border-radius: 0;
-    background-color: rgb(66 73 78 / 90%);
-    -webkit-backdrop-filter: blur(40px);
-    backdrop-filter: blur(40px);
 }
 .v-menu__content {
     border-radius: 1em;
@@ -191,7 +207,8 @@ button.px-0.flex-grow-1.v-btn.v-btn--is-elevated.v-btn--has-bg.theme--dark.v-siz
     background-color: rgb(57 57 57 / 80%);
 }
 .v-list.grow.pt-0.v-sheet.theme--dark.v-list--dense {
-    background-color: rgba(23 23 23 / 50%) !important;
+    background-color: rgba(23 23 23 / 20%) !important;
+    border-radius: 0 !important;
 }
 header.v-sheet.theme--dark.v-toolbar.v-toolbar--dense {
     border-bottom-left-radius: 0;
@@ -263,7 +280,8 @@ button.me-2.mb-2.v-btn.v-btn--block.v-btn--is-elevated.v-btn--has-bg.theme--dark
     -webkit-backdrop-filter: blur(40px);
 }
 .theme--dark .spool-icon {
-    stroke: #0000003b;
+    stroke: none;
+    filter: drop-shadow(0px 0px 6px black);
 }
 a.v-list-item--active.v-list-item.v-list-item--link.theme--dark.secondary--text {
     border-right-style: solid;
@@ -274,9 +292,6 @@ a.v-list-item--active.v-list-item.v-list-item--link.theme--dark.secondary--text 
 .v-list.v-sheet.theme--dark.v-list--dense:last-child {
     border-bottom-left-radius: 1em !important;
     border-bottom-right-radius: 1em !important;
-}
-.v-list-item--link:before {
-    border-radius: 0.3em;
 }
 .app-btn-group[data-v-28c8e213]:not(.app-btn-group--vertical):not(.app-btn-group--divided)>.v-btn:not(:last-child) {
     margin-right: 3px;
@@ -332,4 +347,12 @@ a.v-list-item--active.v-list-item.v-list-item--link.theme--dark.secondary--text 
 .theme--dark .toolbar-logo[data-v-b360135f] {
     background: transparent!important;
     border: 0;
+}
+
+.logo-wrapper[data-v-7fe7065f] {
+    display: none;
+}
+.theme--dark .toolbar-logo[data-v-b360135f] {
+    background-image: url(http://mainsailos.local/server/files/config/.fluidd-theme/logo.png)!important;
+    background-size: cover!important;
 }
