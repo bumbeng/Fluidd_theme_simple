@@ -1,3 +1,4 @@
+
 button.v-btn.v-btn--is-elevated.v-btn--has-bg.theme--dark.v-size--default.btncolor {
     margin-inline: 1px;
 }
@@ -12,6 +13,7 @@ button.v-btn.v-btn--is-elevated.v-btn--has-bg.theme--dark.v-size--default.btncol
     overflow-y: auto;
     overflow-x: hidden;
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 .theme--dark.v-data-table tbody tr.v-data-table__selected {
     background: rgba(23 23 23 / 20%);
@@ -125,6 +127,9 @@ button.px-1.v-btn.v-btn--is-elevated.v-btn--has-bg.theme--dark.v-size--small.btn
 .console-wrapper.v-card.v-card--flat.v-sheet.theme--dark {
     border-top-right-radius: 0;
     border-top-left-radius: 0;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    background-color: transparent !important;
 }
 .v-card.collapsable-card:not(.collapsed) .v-card__title.collapsable-card-title {
     box-shadow: none !important;
@@ -187,9 +192,6 @@ button.px-0.flex-grow-1.v-btn.v-btn--is-elevated.v-btn--has-bg.theme--dark.v-siz
 }
 .theme--dark.v-navigation-drawer {
     background-color: rgba(23 23 23 / 30%) !important;
-}
-.console-wrapper.v-card.v-card--flat.v-sheet.theme--dark {
-    background-color: transparent !important;
 }
 .v-data-table.rounded-0.v-data-table--dense.v-data-table--fixed-header.theme--dark {
     background-color: transparent !important;
