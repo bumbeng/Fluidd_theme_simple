@@ -350,11 +350,3 @@ a.v-list-item--active.v-list-item.v-list-item--link.theme--dark.secondary--text 
     background: transparent!important;
     border: 0;
 }
-
-.logo-wrapper[data-v-7fe7065f] {
-    display: none;
-}
-.theme--dark .toolbar-logo[data-v-b360135f] {
-    background-image: url(http://mainsailos.local/server/files/config/.fluidd-theme/logo.png)!important;
-    background-size: cover!important;
-}
