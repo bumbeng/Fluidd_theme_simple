@@ -1,4 +1,3 @@
-##### !! beta !!
 # Feautures
 - control slider
     - description is now above the    input field to prevent text wrapping
