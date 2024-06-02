@@ -23,7 +23,6 @@ choose your favourite background (rename to background.png)
 
 
 ## How to install
-- make hidden folders visible
 - create a folder called .fluidd-theme in config section
 - copy the downloaded files into this folder
 - reload browser
