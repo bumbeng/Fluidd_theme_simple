@@ -33,11 +33,12 @@ choose your favourite background (rename to background.png)
 - put this image to .fluidd-theme
 - insert these lines with `!! your url !!` of the logo.png file into custom.css
 
-      .logo-wrapper[data-v-7fe7065f] {
-      
-            display: none;
-          }
-          .theme--dark .toolbar-logo[data-v-b360135f] {
-              background-image: url(http://mainsailos.local/server/files/config/.fluidd-theme/logo.png)!important;
-              background-size: cover!important;
-      }
+      .logo-wrapper {
+        display: none !important;
+        }
+        .theme--dark .toolbar-logo {
+            background-image: url(http://mainsailos.local/server/files/config/.fluidd-theme/sidebar-logo.png) !important;
+            background-size: 48px !important;
+            background-repeat: no-repeat !important;
+            background-position: center !important;
+        }
