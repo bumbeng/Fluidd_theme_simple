@@ -1,4 +1,7 @@
-
+.col-sm-5 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
 button.v-btn.v-btn--is-elevated.v-btn--has-bg.theme--dark.v-size--default.btncolor {
     margin-inline: 1px;
 }
